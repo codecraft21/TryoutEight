@@ -7,4 +7,7 @@ public interface IDefaultMethodExt extends IDefaultMethod {
     default void defaultMethodExt() {
         System.out.println("IDefaultMethodExt.defaultMethodExt()");
     }
+    default void anotherDefaultMethodExt() {
+        System.out.println("IDefaultMethodExt.anotherDefaultMethodExt()");
+    }
 }

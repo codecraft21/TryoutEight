@@ -11,6 +11,7 @@ public class MyJavaMain implements IDefaultMethodExt {
         MyJavaMain m = new MyJavaMain();
         m.defaultMethod();
         m.defaultMethodExt();
+        m.anotherDefaultMethodExt();
 
         Map<String,String> map = new HashMap<>();
         String val = map.getOrDefault("key", "nuts");
